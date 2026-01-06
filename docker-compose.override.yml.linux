@@ -1,3 +1,5 @@
 services:
   app:
     user: "${UID}:${GID}"
+    environment:
+      NPM_CONFIG_CACHE: /var/www/html/.npm-cache
